@@ -1,0 +1,98 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.react-slideshow-container {
+  margin: auto;
+  max-height: 500px;  border-radius: 4px;
+   width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.indicators{
+  margin-bottom: 50px;
+}
+.react-slideshow-fade-images-wrap{
+    margin: auto;
+    vertical-align: middle;
+}
+.nav.default-nav {
+  background-color: transparent;
+}
+.nav.default-nav:hover, .nav.default-nav:focus {
+  background-color: transparent;
+}
+.image-container {
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+.slide-container {
+  width: 100px;
+  margin: auto;
+}
+
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+img {
+  border-radius: 4px;
+
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+
+}
+
+.each-fade .image-container img {
+  width: 100%;
+  max-height: 350px;
+  margin: auto;
+}
+
+.each-fade .text-container {
+  padding: 25px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: transparent;
+}
+@media screen and (max-width: 800px) {
+  
+
+  .each-fade {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .each-fade .image-container {
+    width: 100%;
+  }
+  
+  .each-fade .text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

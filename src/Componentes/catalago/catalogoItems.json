@@ -1,0 +1,87 @@
+{
+  "SocialMedias": [
+    "https://github.com/",
+    "https://www.linkedin.com/",
+    "https://www.facebook.com/"
+  ],
+  "Vestidos": [
+    {
+      "titulo": "Vestidos",
+      "prenda": [
+        {
+          "nombre": "Vestido 1",
+          "precio": "$50.00",
+          "url": ""
+        }, {
+          "nombre": "Vestido 2",
+          "precio": "$5.00",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "Blusas": [
+    {
+      "titulo": "Blusas",
+      "prenda": [
+        {
+          "nombre": "Blusa 1",
+          "precio": "$50.00",
+          "url": ""
+        }, {
+          "nombre": "Blusa 2",
+          "precio": "$5.00",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "Pantalones": [
+    {
+      "titulo": "Pantalones",
+      "prenda": [
+        {
+          "nombre": "Pantalon 1",
+          "precio": "$50.00",
+          "url": ""
+        }, {
+          "nombre": "Blusa 2",
+          "precio": "$5.00",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "RopaInterior": [
+    {
+      "titulo": "Ropa Interior",
+      "prenda": [
+        {
+          "nombre": "Pantalon 1",
+          "precio": "$50.00",
+          "url": ""
+        }, {
+          "nombre": "Blusa 2",
+          "precio": "$5.00",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "Zapatos": [
+    {
+      "titulo": "Zapatos",
+      "prenda": [
+        {
+          "nombre": "Zapato  1",
+          "precio": "$50.00",
+          "url": ""
+        }, {
+          "nombre": "Zapato 2",
+          "precio": "$5.00",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

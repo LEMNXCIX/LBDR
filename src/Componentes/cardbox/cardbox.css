@@ -1,0 +1,11 @@
+#cardboxcontainer {
+  margin: auto;
+  margin: 10px 0px 50px 0px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 10px;
+  border-radius: 5px;
+ 
+  width: 100%;
+}

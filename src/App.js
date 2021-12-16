@@ -1,11 +1,14 @@
-import './App.css';
-import Router from './Router';
+import "./App.css";
+import Router from "./Router";
 
-
-const App=()=> {
+const App = () => {
   return (
-   <Router/>
+  
+      
+      <div className="cont"> <Router/> 
+       
+      </div>
   );
-}
+};
 
 export default App;

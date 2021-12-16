@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const InfoBox = () => {
   return (
     <>
+
       <div className="info-box-container">
         <div className="info-box">
           <h1>La Bajada Del Remate</h1>
@@ -24,12 +25,17 @@ const InfoBox = () => {
           </p>
           <h2>Misión</h2>
           <p>
-          Ofrecer a nuestros clientes productos de calidad, a precios cómodos que cumplan con sus necesidades y exigencias, abarcando desde sus gustos de acuerdo a su estilo de ver y vivir la vida. 
+            Ofrecer a nuestros clientes productos de calidad, a precios cómodos
+            que cumplan con sus necesidades y exigencias, abarcando desde sus
+            gustos de acuerdo a su estilo de ver y vivir la vida.
           </p>
           <h2>Visión</h2>
           <p>
-          Ser una negocio líder y reconocido en la venta de todo tipo de ropa “La Bajada Del Remate”, lograr también poder abastecer el local, poder iniciar con ventas online, proporcionando cada día más un servicio de excelencia a nuestros clientes y que al mismo tiempo nos permitan competir con los mejores precios del mercado. 
-           
+            Ser una negocio líder y reconocido en la venta de todo tipo de ropa
+            “La Bajada Del Remate”, lograr también poder abastecer el local,
+            poder iniciar con ventas online, proporcionando cada día más un
+            servicio de excelencia a nuestros clientes y que al mismo tiempo nos
+            permitan competir con los mejores precios del mercado.
           </p>
         </div>
 
@@ -45,7 +51,8 @@ const InfoBox = () => {
 
         <div className="text-contacto-box">
           <h3>
-          ¡¡Si deseas conocer más acerca de los productos que ofrecemos, llámanos o escríbenos!!
+            ¡¡Si deseas conocer más acerca de los productos que ofrecemos,
+            llámanos o escríbenos!!
           </h3>
           <Link className="links">
             0987654321 <FaWhatsapp />
@@ -61,11 +68,16 @@ const InfoBox = () => {
               <Link>
                 <FaFacebookSquare className="icon-link facebook" />
               </Link>
-              <Link to={{ pathname: "https://www.instagram.com" }} target="_blank">
+              <Link
+                to={{ pathname: "https://www.instagram.com" }}
+                target="_blank"
+              >
                 <FaInstagram className="icon-link instagram" />
               </Link>
             </div>
           </div>
+
+          
           <div>
             <h4>Horario de atención:</h4>
             <p>Lunes a Domingo de 8am a 16pm</p>
